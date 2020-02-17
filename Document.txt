@@ -1,0 +1,6 @@
+*****Ver0.01*****
+features/ chứa những feature liên quan tới bussiness
+common/ chứa những thứ linhtinh :D
+header
+footer
+layout
