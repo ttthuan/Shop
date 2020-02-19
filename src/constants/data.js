@@ -1,17 +1,43 @@
 export const products = [
     {
-        id: "00101",
-        productName:  "Adidas",
-        price: "$1000"
+        title: "Women's Boots Shoes Maca",
+        price: "$1000",
+        imageUrl: "images/item-5.jpg"
+
     },
     {
-        id: "00102",
-        productName:  "Nike",
-        price: "$800"
+        title: "Women's Minam Meaghan",
+        price: "$1000",
+        imageUrl: "images/item-5.jpg"
     },
     {
-        id: "00103",
-        productName:  "Lining",
-        price: "$100"
+        title: "Men's Taja Commissioner",
+        price: "$1000",
+        imageUrl: "images/item-5.jpg"
+    },
+    {
+        title: "Men's Taja Commissioner",
+        price: "$1000",
+        imageUrl: "images/item-5.jpg"
+    },
+    {
+        title: "Men's Taja Commissioner",
+        price: "$1000",
+        imageUrl: "images/item-5.jpg"
+    },
+    {
+        title: "Men's Taja Commissioner",
+        price: "$1000",
+        imageUrl: "images/item-5.jpg"
+    },
+    {
+        title: "Men's Taja Commissioner",
+        price: "$1000",
+        imageUrl: "images/item-5.jpg"
+    },
+    {
+        title: "Men's Taja Commissioner",
+        price: "$1000",
+        imageUrl: "images/item-5.jpg"
     }
 ]

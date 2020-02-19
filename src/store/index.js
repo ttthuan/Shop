@@ -13,12 +13,11 @@ export default new Vuex.Store({
     productDetail: null
   },
   actions: {
-    [ActionType.GET_PRODUCTS]({commit}) {     
-        const products = ApiService.getProducts();
-        console.log(products);
-        
-        //commit to mutation
-        commit(MutationType.GET_PRODUCTS, products);  
+    [ActionType.GET_PRODUCTS]({ commit }) {
+      const products = ApiService.getProducts();
+
+      //commit to mutation
+      commit(MutationType.GET_PRODUCTS, products);
     }
   },
   mutations: {
