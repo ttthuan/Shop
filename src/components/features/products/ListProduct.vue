@@ -6,8 +6,8 @@
           <h2>Best Sellers</h2>
         </div>
       </div>
-      <div class="row row-pb-md" v-for="p in products">
-        <ProductItem v-for="col in 4" :key="col" />
+      <div class="row row-pb-md" v-for="product in products" :key="product">
+        <ProductItem :item = "product" v-for="col in 4" :key="col" />
         <div class="w-100"></div>
       </div>
 
