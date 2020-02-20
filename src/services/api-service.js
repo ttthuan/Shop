@@ -27,8 +27,12 @@ const ApiService = {
         });
     },
 
-    getProducts(){
+    getProducts() {
         return MasterData.products;
+    }
+    ,
+    getProductDetail(id) {
+        return MasterData.products[id];
     }
 }
 

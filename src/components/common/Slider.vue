@@ -82,20 +82,6 @@
 
 <script>
 export default {
-  props: ["message"],
-  data() {
-    return {
-      time: 0
-    };
-  },
-  methods: {
-    changeProp: function() {
-      console.log("change");
-      console.log(this.$parent);
-      this.time++;
-      this.$parent.updateMessage("new message " + this.time);
-    }
-  }
 };
 </script>
 
